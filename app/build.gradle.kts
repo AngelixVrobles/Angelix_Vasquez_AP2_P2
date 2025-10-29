@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp") version "2.0.0-1.0.22"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
+
     id("com.google.dagger.hilt.android") version "2.52"
 }
 
@@ -41,9 +43,10 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.15"
-    }
+    // El bloque composeOptions se elimina, ya no es necesario
+    // composeOptions {
+    //     kotlinCompilerExtensionVersion = "1.5.15"
+    // }
 
     packaging {
         resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"

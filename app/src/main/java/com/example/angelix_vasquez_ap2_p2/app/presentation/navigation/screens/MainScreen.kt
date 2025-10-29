@@ -14,7 +14,7 @@ fun MainScreen() {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "📱 Plantilla base lista para el Parcial #2",
+            text = "Plantilla base lista para el Parcial #2",
             style = MaterialTheme.typography.bodyLarge
         )
     }

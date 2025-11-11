@@ -4,4 +4,5 @@ import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class App : Application()
+class Angelix_Vasquez_AP2_P2App : Application() {
+}
